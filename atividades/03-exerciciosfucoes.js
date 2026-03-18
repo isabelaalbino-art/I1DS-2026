@@ -9,17 +9,36 @@ Lista de Exercícios
  veículo faz uma média de 12 Km/L.
 */
 
-function subtracao(anoAtual, anoNascimento){
+function subtracao(anoAtual, anoNascimento) {
   let idadeAtual = anoAtual - anoNascimento;
   return idadeAtual;
 }
 
-let anoAtual = 2026
-let anoNascimento = 1998
+let anoAtual = 2026;
+let anoNascimento = 1998;
 
+console.log(
+  "-------------------------------------------------------------------------------",
+);
+console.log(
+  " A idade atual de quem nasceu em 1998 é:",
+  subtracao(anoAtual, anoNascimento),
+);
+console.log(
+  "-------------------------------------------------------------------------------",
+);
 
-console.log("-------------------------------------------------------------------------------");
-console.log (" A idade atual de quem nasceu em 1998 é:", subtracao(anoAtual, anoNascimento));
-console.log("-------------------------------------------------------------------------------");
+console.log(
+  "=================== QUANTIDADE DE COMBUSTIVEL =====================",
+);
 
+function multiplicacao(QuantCombustivel, Kilometros) {
+  let KmViagem = ( QuantCombustivel * Kilometros)
+  return KmViagem;
+}
 
+let QuantCombustivel = 40;
+let Kilometros = 12;
+
+console.log("-----------------------------------------");
+console.log (" Com 40L de combustível ele percorre:", multiplicacao (QuantCombustivel, Kilometros));
