@@ -42,3 +42,4 @@ let Kilometros = 12;
 
 console.log("-----------------------------------------");
 console.log (" Com 40L de combustível ele percorre:", multiplicacao (QuantCombustivel, Kilometros));
+console.log("-----------------------------------------");
