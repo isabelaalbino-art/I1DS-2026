@@ -26,7 +26,7 @@ console.log("-------------------------------------------")
 
 // outra solução de numeros pares
 for (let i = 1; i  <=20; i++) {
-    if (i % 2 == 0 ) console.log (i);
+    if (i % 2 == 1 ) console.log (i);
    // $ => resto da divisao
    // i % 2 == 0 => se o resto da divisao de i por 2 for 0, ele mostra i 
     
