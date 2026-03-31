@@ -56,3 +56,28 @@ for (let i = 1; i <= 100; i++) {
 console.log(soma);
 
 console.log("================================================================================")
+
+function fatorial(n) {
+let resultado = 1;
+
+for (let i = 1; i <= n; i++) {
+resultado *= i;
+}
+
+return resultado;
+}
+
+let Numero = 5;
+console.log("Fatorial:", fatorial(Numero));
+
+
+console.log("================================================================================")
+
+
+let numTabuada = 5;
+
+for (let i = 1; i <= 10; i++) {
+  numTabuada *i; 
+
+console.log(`${numTabuada} x ${i} = ${numTabuada * i}`);
+}
