@@ -52,8 +52,8 @@ console.log("-------------------------------------------------------------------
 //  (Comprimento * Largura * Altura) 
 let comprimento = 10; 
 let largura = 5; 
-let altParal = 2; 
-let volume = comprimento * largura * altParal; 
+let H = 2; 
+let volume = comprimento * largura * H; 
 console.log("Volume do Paralelepípedo:", volume); 
  
 console.log("--------------------------------------------------------------------------------------------------------------------------------")
@@ -70,7 +70,7 @@ console.log("Valor Final com desconto:", valorFinal);
 console.log("--------------------------------------------------------------------------------------------------------------------------------")
 
 
-//  Celsius para Fahrenheit (C * 1.8 + 32) 
+// celsius para Fahrenheit (C * 1.8 + 32) 
 
 let celsius = 30; 
 let fahrenheit = (celsius * 1.8) + 32; 
@@ -79,7 +79,7 @@ console.log(celsius + "°C equivalem a " + fahrenheit + "°F");
 
 console.log("--------------------------------------------------------------------------------------------------------------------------------")
 
-// Cálculo de IMC (Peso / Altura²) 
+// calculo de IMC (Peso / Altura²) 
 let peso = 60; 
 let alturaPessoa = 1.65; 
 let imc = peso / (alturaPessoa * alturaPessoa); 
@@ -92,7 +92,7 @@ let nota1 = 8;
 let nota2 = 7; 
 let nota3 = 9; 
 let media = (nota1 + nota2 + nota3) / 3; 
-console.log("A média das notas é:", media.toFixed(1)); 
+console.log("A media das notas é:", media.toFixed(2)); 
  
 
 console.log("--------------------------------------------------------------------------------------------------------------------------------")
