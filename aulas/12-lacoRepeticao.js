@@ -45,3 +45,27 @@ for (let i = 0; i < numeros.length; i++) {
     
 }
 console.log(soma);
+
+//Laço de repeticao - While/ Do While
+//
+//While testa a condiçao antes de entrarv no laço de repeticao
+// se a condicao for incialmente falsa, o laco nao é executado nenhuma vezes 
+
+var x = 11;
+
+while (x > 10){
+    console.log("Entrei no laco while...")
+    x= 0 
+}
+console.log("terminei")
+
+//somar enquanto (while) meno que 10
+
+var somar = 0;//variavel para armazenar a soma dos numeros
+var num = 0//variavel para aumentar 1 em 1
+while (somar < 10){
+    somar+=num // somo o numeor atual com o que ja existe na variavel
+    num++ // variavel de controle para while funcionar
+    console.log('somando...',somar)
+    console.log('numero...',num)
+}
