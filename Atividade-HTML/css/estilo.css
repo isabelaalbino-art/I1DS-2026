@@ -103,5 +103,27 @@ li {
   border-radius: 6px;
   transition: 0.5s;
 }
+
 li:hover {
   background-color: #e2e8f0;}
+
+ table{
+  width:100%;
+  border-collapse: collapse;
+  margin-top:20px;
+}
+
+th, td{
+  border:1px solid #ccc;
+  padding:10px;
+  text-align:center;
+}
+
+th{
+  background:#2563eb;
+  color:white;
+}
+
+hr{
+  margin:20px 0;
+}
